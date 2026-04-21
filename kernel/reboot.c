@@ -230,6 +230,7 @@ void migrate_to_reboot_cpu(void)
 	/* The boot cpu is always logical cpu 0 */
 	int cpu = reboot_cpu;
 
+
 	cpu_hotplug_disable();
 
 	/* Make certain the cpu I'm about to reboot on is online */
